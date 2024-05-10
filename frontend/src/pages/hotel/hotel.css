@@ -1,0 +1,90 @@
+.hcontainer
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.himages{
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px;
+    gap:10px;
+    justify-content: center;
+}
+
+.himages img
+{
+    max-width:30%;
+    height:300px;
+}
+
+.htext
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:50px;
+}
+
+.hinfo
+{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:40%;
+    background-color: rgb(249, 230, 249);
+    border-radius: 10px;
+    padding-top:30px;
+    padding-left: 20px;;
+}
+
+.hbook
+{
+    background-color: rgb(178, 224, 252);
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    padding:20px;
+}
+
+.hbook button
+{
+    height:40px;
+    width:100%;
+    background-color: rgb(8, 15, 84);
+    color: white;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    border-radius: 20px;
+}
+
+.hinfo button
+{
+    height:40px;
+    width:40%;
+    margin-left:200px;
+    background-color: rgb(8, 15, 84);
+    color: white;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    border-radius: 20px;
+
+}
+
+.hbook h2
+{
+    background-color: rgb(178, 224, 252);
+}
+
+.hoteltitle
+{
+    text-align: center;
+    margin: 20px;
+    background-color: plum;
+}
+.hotelAddress
+{
+    gap:20px;
+}
+

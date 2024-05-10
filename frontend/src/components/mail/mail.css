@@ -1,0 +1,47 @@
+.mail{
+    width: 100%;
+    height:300px;
+    margin-top: 50px;
+    background:linear-gradient(to bottom right, rgb(239, 194, 255), pink);
+    display: flex;
+  }
+  
+  .mailinfo
+  {
+     display: flex;
+     flex-direction: column;
+     gap:20px;
+     margin:70px 0 0 200px;
+     width:50%
+  }
+
+  .mailimg
+  {
+     width:50%;
+  }
+
+  .mailimg img{
+    height:100%;
+    width:400px;
+  }
+  
+  .mailinfo input{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .mailinfo button{
+    height: 48px;
+    width:70px;
+    padding:2px;
+    background-color: rgb(255, 118, 80);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

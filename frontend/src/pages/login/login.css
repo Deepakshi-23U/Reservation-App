@@ -1,0 +1,68 @@
+
+.login {
+    height:100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(swimming.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+  
+.lContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(174, 174, 249);
+    height: 400px;
+    width: 400px;
+    padding:20px;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 2px rgb(54, 54, 54);
+}
+  
+  .lInput{
+    height: 50px;
+    width:300px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(54, 54, 54, 0.23);
+  }
+  
+  .lButton {
+    border: none;
+    padding: 10px 20px;
+    width:300px;
+    height:50px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
+
+  .errmsg
+  {
+     color:red;
+     font-size:15px;
+     font-weight: 100;
+  }
+
+  .reglink
+  {
+    color:rgb(188, 87, 121);
+    font-weight:700;
+  }
+
+  #regspan
+  {
+    font-weight: 100;
+  }
